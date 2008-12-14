@@ -10,6 +10,8 @@ Group:		Applications
 Source0:	http://dl.sourceforge.net/ltp/%{name}-%{version}.tar.gz
 # Source0-md5:	445fc85c33c0ce21f5e0e06cd881b928
 URL:		http://ltp.sourceforge.net/coverage/lcov.php
+# /usr/bin/gcov is provided by gcc package
+Requires:	gcc
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
