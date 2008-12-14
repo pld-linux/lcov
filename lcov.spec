@@ -3,12 +3,12 @@
 #
 Summary:	LTP GCOV extension code coverage tool
 Name:		lcov
-Version:	1.6
+Version:	1.7
 Release:	0.1
 License:	GPL
 Group:		Applications
 Source0:	http://dl.sourceforge.net/ltp/%{name}-%{version}.tar.gz
-# Source0-md5:	dd3efb076efd812c32285815f12a2935
+# Source0-md5:	445fc85c33c0ce21f5e0e06cd881b928
 URL:		http://ltp.sourceforge.net/coverage/lcov.php
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
