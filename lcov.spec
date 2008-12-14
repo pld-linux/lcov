@@ -1,3 +1,5 @@
+# TODO:
+# - add perl dependencies
 #
 Summary:	LTP GCOV extension code coverage tool
 Name:		lcov
@@ -8,20 +10,6 @@ Group:		Applications
 Source0:	http://dl.sourceforge.net/ltp/%{name}-%{version}.tar.gz
 # Source0-md5:	dd3efb076efd812c32285815f12a2935
 URL:		http://ltp.sourceforge.net/coverage/lcov.php
-#BuildRequires:	-
-#BuildRequires:	autoconf
-#BuildRequires:	automake
-#BuildRequires:	intltool
-#BuildRequires:	libtool
-#Requires(postun):	-
-#Requires(pre,post):	-
-#Requires(preun):	-
-#Requires:	-
-#Provides:	-
-#Provides:	group(foo)
-#Provides:	user(foo)
-#Obsoletes:	-
-#Conflicts:	-
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -47,7 +35,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc CHANGES README example
-%{_sysconfdir}/lcovrc
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/lcovrc
 %attr(755,root,root) %{_bindir}/gendesc
 %attr(755,root,root) %{_bindir}/genhtml
 %attr(755,root,root) %{_bindir}/geninfo
