@@ -1,5 +1,3 @@
-# TODO:
-# - add perl dependencies
 #
 Summary:	LTP GCOV extension code coverage tool
 Name:		lcov
@@ -12,6 +10,11 @@ Source0:	http://dl.sourceforge.net/ltp/%{name}-%{version}.tar.gz
 URL:		http://ltp.sourceforge.net/coverage/lcov.php
 # /usr/bin/gcov is provided by gcc package
 Requires:	gcc
+Requires:	perl(Digest::MD5)
+Requires:	perl(File::Basename)
+Requires:	perl(GD)
+Requires:	perl(Getopt::Long)
+Requires:	perl(strict)
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
