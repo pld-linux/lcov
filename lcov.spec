@@ -1,5 +1,6 @@
 #
 Summary:	LTP GCOV extension code coverage tool
+Summary(pl.UTF-8):	Frontend do GCOV
 Name:		lcov
 Version:	1.7
 Release:	0.1
@@ -24,6 +25,12 @@ about what parts of a program are actually executed (i.e. "covered")
 while running a particular test case. The extension consists of a set
 of PERL scripts which build on the textual GCOV output to implement
 HTML output and support for large projects.
+
+%description -l pl.UTF-8
+LCOV jest frontendem do programu GCOV - narzędzie pozwalającego badać
+które fragmenty kodu są wykonywane (pokryte) podczas przeprowadzania
+zestawu testów. LCOV składa się z zestawu skryptów języka PERL, które
+prezentują dane generowane przez GCOV w postaci stron HTML.
 
 %prep
 %setup -q
