@@ -3,7 +3,7 @@ Summary:	LTP GCOV extension code coverage tool
 Summary(pl.UTF-8):	Frontend do GCOV
 Name:		lcov
 Version:	1.7
-Release:	0.1
+Release:	1
 License:	GPL
 Group:		Applications
 Source0:	http://dl.sourceforge.net/ltp/%{name}-%{version}.tar.gz
