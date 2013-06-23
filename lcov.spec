@@ -2,12 +2,12 @@
 Summary:	LTP GCOV extension code coverage tool
 Summary(pl.UTF-8):	Frontend do GCOV
 Name:		lcov
-Version:	1.8
+Version:	1.10
 Release:	1
 License:	GPL
 Group:		Applications
 Source0:	http://downloads.sourceforge.net/ltp/%{name}-%{version}.tar.gz
-# Source0-md5:	a909d9145111c6133c65b9dce007d7a1
+# Source0-md5:	b9fe33b921016fc68852c8a6beb3a3b5
 URL:		http://ltp.sourceforge.net/coverage/lcov.php
 BuildRequires:	rpm-perlprov >= 4.1-13
 # /usr/bin/gcov is provided by gcc package
