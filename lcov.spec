@@ -1,11 +1,11 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	LTP GCOV extension code coverage tool
-Summary(pl.UTF-8):	Frontend do GCOV
+Summary(pl.UTF-8):	Frontend LTP rozszerzający narzędzie GCOV do badania pokrycia kodu
 Name:		lcov
 Version:	1.10
 Release:	1
-License:	GPL
-Group:		Applications
+License:	GPL v2+
+Group:		Development/Tools
 Source0:	http://downloads.sourceforge.net/ltp/%{name}-%{version}.tar.gz
 # Source0-md5:	b9fe33b921016fc68852c8a6beb3a3b5
 URL:		http://ltp.sourceforge.net/coverage/lcov.php
@@ -24,10 +24,11 @@ of PERL scripts which build on the textual GCOV output to implement
 HTML output and support for large projects.
 
 %description -l pl.UTF-8
-LCOV jest frontendem do programu GCOV - narzędzie pozwalającego badać
-które fragmenty kodu są wykonywane (pokryte) podczas przeprowadzania
-zestawu testów. LCOV składa się z zestawu skryptów języka PERL, które
-prezentują dane generowane przez GCOV w postaci stron HTML.
+LCOV jest frontendem rozszerzającym dla programu GCOV - narzędzia
+pozwalającego badać, które fragmenty kodu są wykonywane (pokryte)
+podczas przeprowadzania zestawu testów. LCOV składa się z zestawu
+skryptów języka PERL, które prezentują dane generowane przez GCOV w
+postaci stron HTML.
 
 %prep
 %setup -q
