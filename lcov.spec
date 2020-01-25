@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	LTP GCOV extension code coverage tool
 Summary(pl.UTF-8):	Frontend LTP rozszerzający narzędzie GCOV do badania pokrycia kodu
 Name:		lcov
