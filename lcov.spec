@@ -2,7 +2,7 @@ Summary:	LTP GCOV extension code coverage tool
 Summary(pl.UTF-8):	Frontend LTP rozszerzający narzędzie GCOV do badania pokrycia kodu
 Name:		lcov
 Version:	1.10
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Development/Tools
 Source0:	http://downloads.sourceforge.net/ltp/%{name}-%{version}.tar.gz
